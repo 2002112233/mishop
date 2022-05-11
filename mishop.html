@@ -55,6 +55,7 @@
         }
         #nav_one{
             width: 1274px;
+            height: 51px;
             margin-left: auto;
             margin-right: auto;
             position: relative;
@@ -63,10 +64,10 @@
         }
 
         #nav_one_2{
-            width: 800px;
+            width: 673px;
             height: 50px;
-            margin-left: 192px;
-            margin-top: 8px;
+            margin-left: 183px;
+            line-height: 50px;
         }
         #nav_one_2 a{
             font-size: 15px;
@@ -74,6 +75,19 @@
         }
         #nav_one_2 a:hover{
             color: red;
+        }
+        #suosou{
+            position: relative;
+        }
+        #btn{
+            width: 51px; 
+            height: 51px;
+            position: absolute;
+            right: 0px;
+        }
+        #btn:hover{
+            background-color: red;
+            border: 0px;
         }
     </style>
 </head>
@@ -119,9 +133,9 @@
                     <a href="">服务</a>
                     <a href="">社区</a>
                 </div>
-                <div>
-                    <input type="text">
-                    <input type="button" value="点击">
+                <div id="suosou">
+                    <input type="text" id="shuru" style="width: 322px; height: 47px; float: left; padding-left: 7px; outline: none;" placeholder="小米手机">
+                    <input type="button" id="btn" value="搜索">
                 </div>
             </div>
         </div>
