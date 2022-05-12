@@ -16,6 +16,11 @@
         /* #MAX_BOX{
             width: 100%;
         } */
+        .nav_top_max{
+            width: 100%;
+            height: 500px;
+            border: 1px solid red;
+        }
         #nav_top{
             width: 100%;
             height: 40px;
@@ -33,6 +38,7 @@
         }
         #nav_max{
             width: 1274px;
+            height: 40px;
             margin-left: auto;
             margin-right: auto;
         }
@@ -54,24 +60,35 @@
             color: #333;
         }
         #nav_one{
+            /* width: 100%; */
+            height: 91px;
+            border: 1px solid black;
+        }
+        #nav{
             width: 1274px;
             height: 51px;
             margin-left: auto;
             margin-right: auto;
             position: relative;
             top: 20px;
+            left: 16px;
             display: flex;
         }
-
         #nav_one_2{
-            width: 673px;
+            width: 669px;
             height: 50px;
-            margin-left: 183px;
+            margin-left: 189px;
             line-height: 50px;
+            display: flex;
+        }
+        li{
+            list-style: none;
         }
         #nav_one_2 a{
             font-size: 15px;
             color: black;
+            margin-left: 16px;
+
         }
         #nav_one_2 a:hover{
             color: red;
@@ -89,53 +106,79 @@
             background-color: red;
             border: 0px;
         }
+        .one_ul{
+            display: flex;
+        }
+        .max_hidd{
+            width: 100%;
+            height: 150px;
+            border: 1px solid red;
+            position: absolute;
+        }
     </style>
 </head>
 <body>
     <div id="MAX_BOX">
-        <div id="nav_top">
-            <div id="nav_max">
-                <div id="nav_left">
-                    <a href="">小米商城</a>
-                    <a href="">MIUI</a>
-                    <a href="">IOT</a>
-                    <a href="">云服务</a>
-                    <a href="">天星数码</a>
-                    <a href="">有品</a>
-                    <a href="">小爱开放平台</a>
-                    <a href="">企业团购</a>
-                    <a href="">资质证照</a>
-                    <a href="">协议规则</a>
-                    <a href="">下载APP</a>
-                    <a href="">Select Location</a>
-                </div>
-                <div id="nav_right">
-                    <a href="">登录</a>
-                    <a href="">注册</a>
-                    <a href="">消息通知</a>
-                </div>
-                <div id="nav_shopcat">
-                    <a href="">购物车（0）</a>
+        <div class="nav_top_max">
+            <div id="nav_top">
+                <div id="nav_max">
+                    <div id="nav_left">
+                        <a href="">小米商城</a>
+                        <a href="">MIUI</a>
+                        <a href="">IOT</a>
+                        <a href="">云服务</a>
+                        <a href="">天星数码</a>
+                        <a href="">有品</a>
+                        <a href="">小爱开放平台</a>
+                        <a href="">企业团购</a>
+                        <a href="">资质证照</a>
+                        <a href="">协议规则</a>
+                        <a href="">下载APP</a>
+                        <a href="">Select Location</a>
+                    </div>
+                    <div id="nav_right">
+                        <a href="">登录</a>
+                        <a href="">注册</a>
+                        <a href="">消息通知</a>
+                    </div>
+                    <div id="nav_shopcat">
+                        <a href="">购物车（0）</a>
+                    </div>
                 </div>
             </div>
+            
             <div id="nav_one">
-                <div>
-                    <a href=""><img src="./image/milogo.jpeg" alt="" width="51px"></a>
-                </div>
-                <div id="nav_one_2">
-                    <a href="">Xiaomi手机</a>
-                    <a href="">Redmi红米</a>
-                    <a href="">电视</a>
-                    <a href="">笔记本</a>
-                    <a href="">平板</a>
-                    <a href="">家电</a>
-                    <a href="">路由器</a>
-                    <a href="">服务</a>
-                    <a href="">社区</a>
-                </div>
-                <div id="suosou">
-                    <input type="text" id="shuru" style="width: 322px; height: 47px; float: left; padding-left: 7px; outline: none;" placeholder="小米手机">
-                    <input type="button" id="btn" value="搜索">
+                <div id="nav">
+                    <div>
+                        <a href=""><img src="./image/milogo.jpeg" alt="" width="51px"></a>
+                    </div>
+                    <div id="nav_one_2">
+                        <ul class="one_ul">
+                            <li><a href="">Xiaomi手机</a></li>
+                            <li><a href="">Redmi红米</a></li>
+                            <li><a href="">电视</a></li>
+                            <li><a href="">笔记本</a></li>
+                            <li><a href="">平板</a></li>
+                            <li><a href="">家电</a></li>
+                            <li><a href="">路由器</a></li>
+                            <li><a href="">服务</a></li>
+                            <li><a href="">社区</a></li>
+                            <!-- <div class="max_hidd">
+                                <div class="max_hidd_cen">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </div> -->
+                        </ul>
+                    </div>
+                    <div id="suosou">
+                        <input type="text" id="shuru" style="width: 322px; height: 47px; float: left; padding-left: 7px; outline: none;" placeholder="小米手机">
+                        <input type="button" id="btn" value="搜索">
+                    </div>
                 </div>
             </div>
         </div>
