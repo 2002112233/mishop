@@ -116,14 +116,16 @@
             position: absolute;
         }
         .container{
+            position: relative;
             width: 1239px;
-            height: 507px;
+            height: 464px;
             border: 1px solid red;
             margin-left: auto;
             margin-right: auto;
+            display: flex;
         }
         .container-left{
-            width: 245px;
+            width: 240px;
             border: 1px solid red;
             background-color: rgb(69, 70, 73);
         }
@@ -132,18 +134,29 @@
             margin-bottom: 17px;
         }
         .container-left ul li{
-            line-height: 47px;
+            line-height: 43px;
             padding-left: 23px;
-            color:aliceblue;
+            
         }
         .container-left ul li a{
             color: aliceblue;
+            font-size: 14px;
         }
         .container-left ul:hover{
             background-color: red;
         }
         .container-left-box{
-            height: 47px;
+            height: 43px;
+        }
+        .container-right{
+            width: 994px;
+        }
+        .iamge_dinwei{
+            z-index: -999;
+            width: 1239px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
         }
     </style>
 </head>
@@ -246,10 +259,9 @@
                         <li><a href="">生活  箱包</a></li>
                     </ul>
                 </div>
-                
-                <div>
-
-                </div>
+            </div>
+            <div class="container-right">
+                <img class="iamge_dinwei" src="image/轮播图.jpg"/>
             </div>
         </div>
     </div>
