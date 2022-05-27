@@ -1,0 +1,192 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+}
+/* #MAX_BOX{
+    width: 100%;
+} */
+.nav_top_max{
+    width: 100%;
+    /* height: 500px;
+    border: 1px solid red; */
+}
+#nav_top{
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    background-color: #333;
+}
+#nav_top a{
+    line-height: 40px;
+    color: #b0b0b0;
+    margin-left: 18px;
+}
+#nav_left{
+    float: left;
+    display: flex;
+}
+#nav_max{
+    width: 1274px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#nav_right{
+    display: flex;
+    float: left;
+    margin-left: 184px;
+}
+#nav_shopcat{
+    width: 126px;
+    height: 40px;
+    background-color: aqua;
+    float: left;
+    margin-left: 28px;
+    line-height: 40px;
+    text-align: center;
+}
+#nav_shopcat a{
+    color: #333;
+}
+#nav_one{
+    width: 100%;
+    height: 91px;
+    /* border: 1px solid black; */
+}
+#nav{
+    width: 1274px;
+    height: 51px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 20px;
+    left: 16px;
+    display: flex;
+}
+#nav_one_2{
+    width: 669px;
+    height: 50px;
+    margin-left: 189px;
+    line-height: 50px;
+    display: flex;
+}
+li{
+    list-style: none;
+}
+#nav_one_2 a{
+    font-size: 15px;
+    color: black;
+    margin-left: 16px;
+
+}
+#nav_one_2 a:hover{
+    color: red;
+}
+#suosou{
+    position: relative;
+}
+#btn{
+    width: 51px; 
+    height: 51px;
+    position: absolute;
+    right: 0px;
+}
+#btn:hover{
+    background-color: red;
+    border: 0px;
+}
+.one_ul{
+    display: flex;
+}
+.max_hidd{
+    width: 100%;
+    height: 150px;
+    border: 1px solid red;
+    position: absolute;
+}
+.container{
+    position: relative;
+    width: 1239px;
+    height: 464px;
+    border: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.container-left{
+    width: 240px;
+    border: 1px solid red;
+    background-color: rgb(69, 70, 73);
+}
+#box-id{
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+.container-left ul li{
+    line-height: 43px;
+    padding-left: 23px;
+    
+}
+.container-left ul li a{
+    color: aliceblue;
+    font-size: 14px;
+}
+.container-left ul:hover{
+    background-color: red;
+}
+.container-left-box{
+    height: 43px;
+}
+.container-right{
+    width: 994px;
+}
+.iamge_dinwei{
+    z-index: -999;
+    width: 1239px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.center_map{
+    width: 1239px;
+    border: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center_list{
+    width: 1241px;
+    height: 700px;
+}
+.center_list-list{
+    height: 650px;
+    border: 1px solid red;
+}
+.box-hd{
+    position: relative;
+    top: 7px;
+}
+.wenzidaixoa{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 70px;
+    color: #333;
+    display: inline;
+}
+.move{
+    display: inline;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.move a{
+    font-size: 16px;
+    line-height: 70px;
+    color: #424242;
+}
+.move a:hover{
+    color: red;
+}
