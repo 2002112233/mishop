@@ -110,11 +110,10 @@ li{
 .container{
     position: relative;
     width: 1239px;
-    height: 464px;
     border: 1px solid red;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    /* display: flex; */
 }
 .container-left{
     width: 240px;
@@ -150,6 +149,13 @@ li{
     top: 0px;
     left: 0px;
 }
+.container-bottom{
+    /* width: 1239px; */
+    height: 200px;
+    margin-top: 15px;
+    border: 1px red solid;
+}
+
 .center_map{
     /* width: 1239px;
     border: 1px solid red;
@@ -159,7 +165,6 @@ li{
 }
 .center_list{
     width: 1241px;
-    height: 700px;
     margin: 0 auto;
 }
 .center_list-list{
@@ -196,7 +201,7 @@ li{
 .img-a{
     width: 100%;
     display: block;
-    padding: 20px 0px;
+    padding: 28px 0px;
     text-align: center;
 }
 .shouji-img{
@@ -205,21 +210,31 @@ li{
 .image-1 img{
     background: rgb(255, 255, 255);
 }
+.hengfu{
+    padding-top: 23px;
+
+}
 .span-1{
     width: 997px;
     height: 628px;
     border: 1px solid red;
 }
+.img-list{
+    display: flex;
+    flex-wrap: wrap;
+}
 .li_1{
     width: 239px;
-    height: 303px;
-    margin-left: 13px;
+    height: 308px;
+    margin-left: 8px;
     border: 1px solid red;
     background: rgb(255, 255, 255);
     transition: all .2s linear;
+    /* float: left; */
+    margin-bottom: 8px;
 }
 .li_1:hover{
-    margin-top: -1px;
+    /* margin-top: -1px; */
     box-shadow: 2px 2px 10px black;
     cursor: pointer;
 }
@@ -238,3 +253,11 @@ li{
     color: #ff6700;
     font-size: 14px;
 }
+.ul-g{
+    display: flex;
+    justify-content:space-between;
+}
+/* .container-bottom ul li{
+    float: left;
+    margin-right: 9px;
+} */
